@@ -12,7 +12,7 @@ public class AimVisualizer : MonoBehaviour
     public float minAngle = 30f;
     public float maxAngle = 120f;
     public float maxDistance = 5f;
-    public int segments = 20;
+    public int segments = 40;
 
     private LineRenderer lineRenderer;
     private float currentConeAngle;
@@ -56,8 +56,6 @@ public class AimVisualizer : MonoBehaviour
 
         // Góc mở cung
         float t = Mathf.Clamp01(distance / maxDistance);
-        float coneAngle = Mathf.Lerp(minAngle, maxAngle, t);
-        DrawArc(-coneAngle / 2f, coneAngle / 2f, distance);
         currentConeAngle = Mathf.Lerp(minAngle, maxAngle, t); // thêm dòng này
         DrawArc(-currentConeAngle / 2f, currentConeAngle / 2f, distance);
     }

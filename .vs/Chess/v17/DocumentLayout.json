@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\Code Game\\Chess\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{501BD3FF-7F48-2366-810A-1677FF50E37F}|Assembly-CSharp.csproj|C:\\Users\\Admin\\Documents\\Code Game\\Chess\\assets\\script\\aimvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{501BD3FF-7F48-2366-810A-1677FF50E37F}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\aimvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{501BD3FF-7F48-2366-810A-1677FF50E37F}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\code game\\chess\\assets\\script\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{501BD3FF-7F48-2366-810A-1677FF50E37F}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{501BD3FF-7F48-2366-810A-1677FF50E37F}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\code game\\chess\\assets\\script\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{501BD3FF-7F48-2366-810A-1677FF50E37F}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{501BD3FF-7F48-2366-810A-1677FF50E37F}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\code game\\chess\\assets\\script\\aimvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{501BD3FF-7F48-2366-810A-1677FF50E37F}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\aimvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Code Game\\Chess\\Assets\\Script\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Bullet.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\Code Game\\Chess\\Assets\\Script\\Bullet.cs",
-              "RelativeToolTip": "Assets\\Script\\Bullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T09:28:48.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AimVisualizer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Code Game\\Chess\\Assets\\Script\\AimVisualizer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\AimVisualizer.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\Code Game\\Chess\\Assets\\Script\\AimVisualizer.cs",
               "RelativeToolTip": "Assets\\Script\\AimVisualizer.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAqwGsAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T09:09:33.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Gun.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Code Game\\Chess\\Assets\\Script\\Gun.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Gun.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\Code Game\\Chess\\Assets\\Script\\Gun.cs",
               "RelativeToolTip": "Assets\\Script\\Gun.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAIwHMAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAwwF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T09:06:56.669Z",
               "EditorCaption": ""

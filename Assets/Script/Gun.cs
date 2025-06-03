@@ -13,7 +13,6 @@ public class Gun : MonoBehaviour
     [SerializeField] private float shotDelay = 0.3f;
     [SerializeField] private int maxAmmo = 5;
     [SerializeField] private int bulletCount = 5;
-    [SerializeField] private float spreadAngle = 50f;
 
 
     private int currentAmmo;
@@ -71,16 +70,17 @@ public class Gun : MonoBehaviour
         nextShotTime = Time.time + shotDelay;
         currentAmmo--;
 
-        float coneAngle = aimVisualizer ? aimVisualizer.GetCurrentConeAngle() : spreadAngle;
-
-        // Hướng chuẩn giống với AimVisualizer
         Vector3 mouseWorldPos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         mouseWorldPos.z = 0f;
         Vector2 baseDir = (mouseWorldPos - firePoint.position).normalized;
 
+        float padding = 5f;
+        float coneAngle = aimVisualizer.GetCurrentConeAngle() + padding;
+
         for (int i = 0; i < bulletCount; i++)
         {
             float angleOffset = Random.Range(-coneAngle / 2f, coneAngle / 2f);
+
             Quaternion offsetRotation = Quaternion.Euler(0, 0, angleOffset);
             Vector2 shootDir = offsetRotation * baseDir;
 
@@ -88,13 +88,11 @@ public class Gun : MonoBehaviour
             Quaternion rotation = Quaternion.Euler(0f, 0f, angle);
 
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, rotation);
-
-            // 🔥 Random chiều dài
-            float lengthScale = Random.Range(0.5f, 1.0f);
+            float lengthScale = Random.Range(0.75f, 1.0f);
             bullet.transform.localScale = new Vector3(lengthScale, 1f, 1f);
         }
-
     }
+
 
     private void RotateGunTowardMouse()
     {
